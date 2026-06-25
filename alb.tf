@@ -33,9 +33,9 @@ resource "aws_lb" "external_alb" {
   internal           = false # Makes it public-facing
   load_balancer_type = "application"
   security_groups    = [aws_security_group.alb_sg.id]
-  
+
   # Cross-Zone High Availability: Spans both custom public subnets
-  subnets            = [aws_subnet.public_1.id, aws_subnet.public_2.id]
+  subnets = [aws_subnet.public_1.id, aws_subnet.public_2.id]
 
   tags = { Name = "prod-external-alb" }
 }
