@@ -40,7 +40,7 @@ The entire network fabric is deployed across multiple Availability Zones in the 
  │ │  └────────────────┘  │ │  └────────────────┘  │ │
  │ └──────────────────────┘ └──────────────────────┘ │
  └───────────────────────────────────────────────────┘
-```
+
 
 ---
 
@@ -101,20 +101,39 @@ terraform plan
 ### 3. Provision the Full Cloud Fabric
 Execute the structural configuration blocks directly to the Singapore region:
 ```powershell
-terraform apply -auto-approve
+terraform apply
 ```
 
 ---
 
 ## 📸 Deployment & Operational Verification
 
-### 💻 Infrastructure Build Status
+### Execution terraform apply Infrastructure Build Status
 Below is the successful 14-resource custom network deployment terminal confirmation:
-![VPC Apply Complete](vpc-apply-complete.png)
+![VPC Apply Complete](terraform-apply-complete-vpclab.png)
 
-### 🌐 Live Architecture Routing Verification
+Below is the successful 4-resource custom network deployment terminal confirmation:
+![VPC Apply Complete](terraform-apply-complete-alb.png)
+
+Below is the successful 5-resource custom network deployment terminal confirmation:
+![VPC Apply Complete](terraform-apply-complete-compute.png)
+
+
+### Live Architecture Routing Verification
+Outputs alb public URL
+![Live Architectture verification](architecture-live-verification-.png)
+
 The browser round-robin load distribution validation page:
-![Live Architecture Verification](architecture-live-verification.png)
+![Live Architecture Verification](production-external-alb-live.png)
+
+### Git Execution and Application into GitHub setup main branch
+Infrastructure architected custom
+![Git Apply Complete](git-add-git-commit.png)
+
+Infrastructure push origin main lab custom setup main branch
+![Git Apply Complete](git-push-success-lab.png)
+
+
 
 ---
 
