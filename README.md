@@ -121,7 +121,7 @@ Below is the successful 5-resource custom network deployment terminal confirmati
 
 ### Live Architecture Routing Verification
 Outputs alb public URL
-![Live Architecture verification](architecture-live-verification-.png)
+![Live Architecture verification](architecture-live-verification.png)
 
 The browser round-robin load distribution validation page:
 ![Live Architecture Verification](production-external-alb-live.png)
