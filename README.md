@@ -148,4 +148,4 @@ Through this practical hands-on engineering lab, I moved past basic graphical co
 * **Blast-Radius Isolation:** Verified how to architect real corporate environments according to compliance frameworks. By stripping all public IPs from internal compute servers and chaining Security Group IDs, backend targets remain fully isolated from public vector exploits.
 
 ---
-*Project engineered by Fadzlan bin Omar — Focused on Cloud Infrastructure, Systems Administration, and DevOps Engineering.*
+*Project hands-on by Fadzlan bin Omar — Focused on Cloud Infrastructure, Systems Administration, and DevOps Engineering.*
